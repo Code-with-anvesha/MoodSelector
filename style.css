@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.moods {
+    margin-top: 20px;
+}
+
+.mood-btn {
+    font-size: 40px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    transition: transform 0.2s;
+}
+
+.mood-btn:hover {
+    transform: scale(1.2);
+}
+
+#mood-text {
+    margin-top: 20px;
+    font-size: 20px;
+}
